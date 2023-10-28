@@ -1,0 +1,119 @@
+<!Doctype html>
+<html>
+   <head>
+      <title>
+          Webpage1
+      </title>
+      <style>
+         *{
+             margin:0;
+             padding:0;
+             box-sizing:border-box;
+         }
+         body{
+             background:url("https://images.unsplash.com/photo-1477959858617-67f85cf4f1df?auto=format&fit=crop&q=80&w=1000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxleHBsb3JlLWZlZWR8MXx8fGVufDB8fHx8fA%3D%3D");
+             /*background-repeat:no-repeat;
+             background-size:100%;*/
+             background-repeat:no-repeat;
+             background-size:cover;
+         }
+         .navbar ul{
+             position:absolute;
+             left:767px;
+             top:5%;
+             transform:translate(-50%,-50%);
+             background:rgb(2, 0, 41);
+             width:100%;
+             height:70px;
+             border-radius:1px;
+             box-shadow:5px 5px 10px rgba(0,0,0,0.5);
+             display:flex;
+         }
+         .navbar ul li{
+             line-height:70px;
+             width:150px;
+             color:#fff;
+             text-transform:uppercase;
+             list-style:none;
+             text-align:center;
+             transition:0.3s;
+             cursor:pointer;
+         }
+         .navbar ul li a{
+             line-height:70px;
+             width:100px;
+             color:#fff;
+             text-transform:uppercase;
+             list-style:none;
+             text-align:center;
+             transition:0.3s;
+             cursor:pointer;
+             text-decoration:none;
+         }
+         .navbar ul li a:hover{
+             color:yellow;
+         }
+         .footer{
+             position:absolute;
+             top:95%;
+             left:767px;
+             background:rgb(2,0,41);
+             transform:translate(-50%,-50%);  
+             width:1535px;
+             height:70px;
+             border-radius:1px;
+             line-height:70px;
+             text-transform:uppercase;
+             color:#fff;
+             padding-left:200px;
+         }
+         .footer input{
+             padding:08px;
+             margin-left:15px;
+         }
+         .footer button{
+             padding-top:3px;
+             padding-bottom:3px;
+             padding-right:20px;
+             padding-left:20px;
+             text-align:center;
+             justify-content:center;
+             background:yellow;
+             color:black;
+             font-weight:bold;
+             font-size:14px;
+             margin-left:10px;
+         }
+      </style>
+   </head>
+   <body>
+          <div class="navbar">
+             <ul>
+               <li><a href="#">Home</a></li>
+               <li><a href="#">About</a></li>
+               <li><a href="#">Services</a></li>
+               <li><a href="#">Price</a></li>
+               <li><a href="#">Projects</a></li>
+               <li><select>
+               <option selected>Pages</option>
+               <option>A4</option>
+               <option>A3</option>
+               <option>Letter</option>
+               <option>Envolope</option>
+               </select></li>
+               <li><a href="#">Contact</a></li>
+             </ul>
+          </div>
+      <!--Here bottom work is started-->
+      <div class="footer">
+         
+         <input type="text" placeholder="City">
+         <input type="text" placeholder="From">
+         <input type="text" placeholder="To">
+         <input type="checkbox"> For Rent
+         <input type="checkbox"> For Sale
+        <button type="search">Search</button>
+        <!--Created by &copy; Shaazsk<sup>2</sup>-->
+      </div>
+   </body>
+</html>
